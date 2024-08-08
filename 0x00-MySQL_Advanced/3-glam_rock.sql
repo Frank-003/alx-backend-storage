@@ -1,6 +1,4 @@
--- Ensure you have the metal_bands table imported in your database
-
--- SQL script to list bands with Glam rock as their main style, ranked by longevity
+--  lists all bands with Glam rock as their main style, ranked by their longevity
 SELECT 
     band_name,
     CASE
