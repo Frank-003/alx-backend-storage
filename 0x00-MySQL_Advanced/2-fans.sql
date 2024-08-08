@@ -9,4 +9,4 @@ FROM
 GROUP BY 
     origin
 ORDER BY 
-    total_fans DESC;
+    nb_fans DESC;
