@@ -4,4 +4,5 @@ CREATE TABLE IF NOT EXISTS users (
     name VARCHAR(255),
     country VARCHAR(2) NOT NULL DEFAULT 'US',
     CHECK (country IN ('US', 'CO', 'TN'))
+    PRIMARY KEY (id)
 );
