@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
+'''Task 8's module.
+'''
+
+
 def list_all(mongo_collection):
-    """
-    Lists all documents in a MongoDB collection.
-
-    Parameters:
-    mongo_collection (pymongo.collection.Collection): The MongoDB collection object.
-
-    Returns:
-    list: A list of documents in the collection, or an empty list if the collection is empty.
-    """
-    return list(mongo_collection.find())
+    '''Lists all documents in a collection.
+    '''
+    return [doc for doc in mongo_collection.find()]
